@@ -150,7 +150,7 @@ body {
   margin-top: 100px;
 }
 .section-title {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 .section-subtitle {
   margin-bottom: 0;
@@ -1196,11 +1196,18 @@ label.error {
 .feature:hover .title {
   color: #996de9;
 }
+.devicon {
+  font-size: 100px;
+}
+
+.tech-description {
+  font-size: 20px;
+}
 /*--------------------------------------------------------------------------------------------------------------------
  * Section: More Features
  *--------------------------------------------------------------------------------------------------------------------*/
 .more-feature {
-  margin-bottom: 30px;
+  /*margin-bottom: 10px;*/
 }
 .more-feature .media-left {
   padding-top: 1px;
@@ -1222,6 +1229,7 @@ label.error {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   margin-bottom: 10px;
+
 }
 .more-feature .description {
   margin-bottom: 10px;
@@ -1244,6 +1252,7 @@ label.error {
   background: #fff;
 }
 .project-item .gallery-image {
+  max-height: 202px;
   margin-bottom: 10px;
 }
 .project-item .info {
@@ -2152,6 +2161,10 @@ label.error {
 .projects-list .project-image {
   margin-bottom: 30px;
 }
+.tech-title {
+  display: block;
+  margin: 0 auto;
+}
 /*--------------------------------------------------------------------------------------------------------------------
  * 404 Page
  *--------------------------------------------------------------------------------------------------------------------*/
@@ -2237,7 +2250,7 @@ label.error {
  *--------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 991px) {
   .header {
-    height: 64px;
+    height: 40px;
   }
   .breadcrumb {
     float: none;
@@ -2246,6 +2259,9 @@ label.error {
   }
 }
 @media screen and (max-width: 767px) {
+  .zorbit {
+    display: none !important;
+  }
   .brand .logo-big {
     display: none !important;
   }
