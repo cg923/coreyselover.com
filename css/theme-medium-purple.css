@@ -846,7 +846,7 @@ label.error {
  * Brand & Navigation
  *--------------------*/
 .header {
-  height: 96px;
+  height: 40px;
 }
 .navbar {
   -webkit-border-radius: 0;
@@ -857,20 +857,8 @@ label.error {
   margin-bottom: 0;
   min-height: 1px;
   font-size: 13px;
-  background: #fff;
+  background: #000;
   border: none;
-  /*
-   * Navigation Style: Fill
-   *-----------------------------*/
-  /* /Navigation Style: Fill */
-  /*
-   * Navigation Style: Underline
-   *-----------------------------*/
-  /* /Navigation Style: Underline */
-  /*
-   * Affixed Navigation
-   *-----------------------------*/
-  /* /Affixed Navigation */
 }
 .navbar .information {
   -webkit-transition: all 0.5s ease-in-out;

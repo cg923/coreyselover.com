@@ -14,7 +14,7 @@
     <link rel="shortcut icon" href="img/favicon.png">
 
     <!-- Style -->
-    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/theme-medium-purple.css">
 
     <!-- TODO: Predefined Schemes (select one of the presented) -->
     <link rel="alternate stylesheet" href="css/theme-persimmon.css" title="theme-persimmon">
@@ -41,37 +41,7 @@
 <header id="home" class="header">
 
     <!-- Navigation -->
-    <nav id="navigation" class="navbar affix">
-
-        <!-- Company Information -->
-        <div class="information hidden-sm hidden-xs">
-            <div class="container">
-                <div class="row">
-
-                    <!-- Feedback -->
-                    <div class="col-md-7">
-                        <a href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&hl=en&t=v&hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom" class="iframe-popup"><span class="icon icon_pin_alt"></span> 988782, Our Street, L.A.</a>
-                        <a href="#"><span class="icon icon_mail_alt"></span> clients@example.com</a>
-                        <a href="#"><span class="icon icon_phone"></span> +1 987 123 456</a>
-                    </div>
-                    <!-- /Feedback -->
-
-                    <!-- Social -->
-                    <div class="col-md-5">
-                        <ul class="social">
-                            <li><a href="#" class="fa fa-fw fa-facebook"></a></li>
-                            <li><a href="#" class="fa fa-fw fa-twitter"></a></li>
-                            <li><a href="#" class="fa fa-fw fa-google-plus"></a></li>
-                            <li><a href="#" class="fa fa-fw fa-dribbble"></a></li>
-                            <li><a href="#" class="fa fa-fw fa-pinterest"></a></li>
-                        </ul>
-                    </div>
-                    <!-- /Social -->
-
-                </div>
-            </div>
-        </div>
-        <!-- /Company Information -->
+    <nav id="navigation" class="navbar affix navbar-fill">
 
         <div class="container">
 
@@ -116,34 +86,12 @@
 
                     <!-- Navigation -->
                     <div id="main-menu" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle">Pages</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="404.html">404</a></li>
-                                    <li><a href="services.html">Services</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle">Blog</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="blog-left-sidebar.html">Post List - Left Sidebar</a></li>
-                                    <li><a href="blog.html">Post List - Right Sidebar</a></li>
-                                    <li><a href="single-post.html">Single Post</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle">Portfolio</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="portfolio-2-col.html">2 Columns</a></li>
-                                    <li><a href="portfolio-3-col.html">3 Columns</a></li>
-                                    <li><a href="portfolio.html">4 Columns</a></li>
-                                    <li><a href="single-project.html">Project Page</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="contact.html">Contact</a></li>
+                        <ul class="nav navbar-fill navbar-nav navbar-right">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">What I Do</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Personal</a></li>
+                            <li><a href="#">Contact</a></li>
                         </ul>
                     </div>
                     <!-- /Navigation -->
@@ -162,19 +110,18 @@
 <div class="slider owl-carousel owl-theme">
 
     <!-- Slide -->
-    <div class="item mask" style="background: url(images/home.jpg) no-repeat center top / cover;" data-stellar-background-ratio="0.4">
+    <div class="item mask" style="background: url(images/zorbit2.png) no-repeat center top / cover;" data-stellar-background-ratio="0.4">
 
         <div class="container height-100p">
             <div class="row height-100p">
 
                 <div class="col-sm-6 col-md-6 height-100p bounceInLeft wow" data-wow-duration="1.3s" data-wow-delay="0.3s" data-stellar-ratio="0.7">
                     <div class="vertical-middle">
-                        <h1 class="text-white">Welcome to <span class="text-theme">CleaThin</span></h1>
-                        <div class="text-white h4">
-                            It is a long established fact that a reader will be distracted by the readable content of a
-                            page when looking at its layout.
+                        <h1 class="text-white strong">Corey Selover</h1> 
+                        <h1><span class="text-theme strong">Web and Software Developer</span></h1>
+                        <div class="text-white h4 strong">
+                            C++ | JavaScript | Angular | HTML | CSS
                         </div>
-                        <a href="#about" class="smooth-scroll btn btn-theme">Start Watching</a>
                     </div>
                 </div>
 
@@ -1029,46 +976,6 @@
 <script src="js/jquery.animateNumber.min.js"></script>
 <script src="js/general.js"></script>
 <!-- /SCRIPTS -->
-
-
-<!-- TODO: Remove this block, Demo-version only -->
-<!-- Styleswitcher -->
-<div id="styleswitcher" class="styleswitcher">
-    <div class="styleswitcher-content">
-
-        <h4 class="styleswitcher-title">Color Presets</h4>
-        <div class="styleswitcher-block">
-            <ul class="styleswitcher-list-colors">
-                <li><a href="javascript: switchStyle('theme-persimmon')" style="background: #ff5555;" title="Persimmon"></a></li>
-                <li><a href="javascript: switchStyle('theme-atomic-tangerine')" style="background: #ff9e55;" title="Atomic Tangerine"></a></li>
-                <li><a href="javascript: switchStyle('theme-yellow-sea')" style="background: #fab000;" title="Yellow Sea"></a></li>
-                <li><a href="javascript: switchStyle('theme-rio-grande')" style="background: #aed605;" title="Rio Grande"></a></li>
-                <li><a href="javascript: switchStyle('theme-vida-loca')" style="background: #38b71f;" title="Vida Loca"></a></li>
-                <li><a href="javascript: switchStyle('theme-mountain-meadow')" style="background: #1fb768;" title="Mountain Meadow"></a></li>
-                <li><a href="javascript: switchStyle('theme-java')" style="background: #1fb7a4;" title="Java"></a></li>
-                <li><a href="javascript: switchStyle('theme-mariner')" style="background: #3274cd;" title="Mariner"></a></li>
-                <li><a href="javascript: switchStyle('theme-medium-purple')" style="background: #996de9;" title="Medium Purple"></a></li>
-                <li><a href="javascript: switchStyle('theme-lavender-magenta')" style="background: #e94de4;" title="Lavender Magenta"></a></li>
-            </ul>
-        </div>
-
-        <h4 class="styleswitcher-title">Navigation Style</h4>
-        <div class="styleswitcher-block">
-            <select id="styleswitcher-navbar-style">
-                <option value="style-1">Default</option>
-                <option value="style-2">Fill</option>
-                <option value="style-3">Underline</option>
-            </select>
-        </div>
-
-    </div>
-
-    <div class="styleswitcher-button vertical-middle"><i class="fa fa-gear"></i></div>
-</div>
-
-<link rel="stylesheet" type="text/css" href="demo/styleswitcher.css" property="">
-<script src="demo/styleswitcher.js"></script>
-<!-- /Styleswitcher -->
 
 </body>
 </html>
