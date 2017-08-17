@@ -1,7 +1,4 @@
-
-// $(document).ready(function() {
-//     console.log('fuck');
-// });
+let currentTop;
 
 $(function($) {
 
@@ -43,7 +40,7 @@ $(function($) {
         horizontalOffset: 0,
         verticalOffset: 0,
         horizontalScrolling: false,
-        hideDistantElements: false
+        hideDistantElements: true
     });
 
     /*-----------------------------------------------------------------
@@ -163,7 +160,19 @@ $(function($) {
     });
 
     $('.ajax-popup-link').magnificPopup({
-        type    : 'ajax'
+        type    : 'ajax',
+        callbacks: {
+            afterClose: function() {
+                $.stellar({verticalOffset: 650});
+                /*$.stellar({
+                    responsive: true,
+                    horizontalOffset: 0,
+                    verticalOffset: 650,
+                    horizontalScrolling: false,
+                    hideDistantElements: false
+                });*/
+            }
+        }
     });
 
     /*-----------------------------------------------------------------
