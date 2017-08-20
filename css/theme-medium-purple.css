@@ -1252,6 +1252,7 @@ label.error {
   background: #fff;
 }
 .project-item .gallery-image {
+  min-height: 202px;
   max-height: 202px;
   margin-bottom: 10px;
 }
@@ -2167,7 +2168,7 @@ label.error {
 }
 .portfolio-div {
   height: 500px;
-  padding-top: 50px;
+  padding: 40px;
   background-color: white;
 }
 /*--------------------------------------------------------------------------------------------------------------------
