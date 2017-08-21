@@ -662,6 +662,10 @@ a:focus,
     font-weight:400;
 }
 
+.devicon {
+    font-size: 100px;
+}
+
 /*----------------------
 -----Portfolio Styles----
 ------------------------*/ 	
